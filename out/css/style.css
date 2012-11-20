@@ -1,0 +1,67 @@
+body {
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    margin-top: 20px;
+    border: 1px solid #DDDDDD;
+    padding: 20px;
+}
+
+.container h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+#results {
+    margin: 20px 0;
+}
+
+table {
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+table th, .table td {
+    border-top: 1px solid #DDDDDD;
+    line-height: 20px;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+tbody tr:hover{
+    background-color: #EEEEEE;
+}
+
+footer{
+    display: block;
+}
+
+
+/*Messages and errors theming */
+
+div.message{
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.message.ok{
+    background-color: #DFF0D8;
+}
+
+.message.error{
+    background-color: #F2DEDE;
+}
+
+.message.notice{
+    background-color: #FCF8E3;
+}
